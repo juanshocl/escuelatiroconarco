@@ -18,4 +18,8 @@ from profiles import views
 
 urlpatterns = [
     path('', views.profiles, name='profiles'),
+    path('profile/', views.profile, name='profile'),
+    path('newProfile/', views.newProfile, name='newProfile'),
+    
+    
 ]
