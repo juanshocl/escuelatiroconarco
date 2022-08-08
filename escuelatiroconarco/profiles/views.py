@@ -9,3 +9,7 @@ def profile(request):
 
 def newProfile(request):
     return render(request, 'profiles/newProfile.html')
+
+def login(request):
+    return render(request, 'dashboard/login.html')
+

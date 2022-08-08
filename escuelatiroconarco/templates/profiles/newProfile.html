@@ -26,8 +26,166 @@
             <!-- Main content -->
             <section class="content">
                 <div class="container-fluid">
-                    <div> HOLI </div>
+                    <div class="card card-info">
+                        <div class="card-header">
+                            <h3 class="card-title">Datos para registro</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <form>
+
+                            <div class="card-body">
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <!-- text input -->
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                            </div>
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i
+                                                        class="fas fa-calendar-day"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Fecha Nacimiento">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Nombre Completo">
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <!-- select -->
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option selected>Genero</option>
+                                                <option>Masculino</option>
+                                                <option>Femenino</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text"><i class="fas fa-phone-alt"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Telefono">
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="input-group mb-3">
+                                            <label class="input-group-text col-sm-6" for="inputGroupSelect01">Mano
+                                                Dominante</label>
+                                            <select class="form-select col-sm-6" id="inputGroupSelect01">
+                                                <option selected>Seleccione...</option>
+                                                <option value="1">Derecha</option>
+                                                <option value="2">Izquierda</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text"><i
+                                                        class="fas fa-map-marked-alt"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Direccion">
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group mb-3">
+                                            <label>Alguna Enfermedad:</label>
+                                            <textarea class="form-control" rows="3" placeholder="..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group mb-3">
+                                            <label>En caso de elemercia llamar a:</label>
+                                            <textarea class="form-control" rows="3" placeholder="..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group mb-3">
+                                            <label>Observaciones :</label>
+                                            <textarea class="form-control" rows="3" placeholder="..."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-primary">Guardar</button>
+                            </div>
+
+                        </form>
+
+                    </div>
                 </div><!-- /.container-fluid -->
+                <div class="container-fluid">
+                    <div class="card card-info">
+                        <div class="card-header">
+                            <h3 class="card-title">Datos Adulto Responsable</h3>
+                        </div>
+                        <form action="">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Nombre Completo">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="input-group mb-3">
+                                            <label class="input-group-text col-sm-6" for="inputGroupSelect01">Parentesco</label>
+                                            <select class="form-select col-sm-6" id="inputGroupSelect01">
+                                                <option selected>Seleccione...</option>
+                                                <option value="1">Padre</option>
+                                                <option value="2">Madre</option>
+                                                <option value="3">Otro</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text"><i class="fas fa-phone-alt"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Telefono">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-primary">Guardar</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
             </section>
             <!-- /.content -->
         </div>
